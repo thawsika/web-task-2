@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+
+    <style>
+
+        body{
+            background-image: url("Grid Line Background.jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header{
+            text-align: center;
+            color: beige;
+            padding: 20px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            padding: 20px;
+            background-color: rgb(52, 7, 7);
+            border-radius: 15px;
+        }
+
+        nav a{
+            color: beige;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: gold;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .card{
+            width: 80%;
+            max-width: 900px;
+            padding: 25px;
+            border-radius: 20px;
+            background-color: rgb(71, 43, 43);
+            color: beige;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1,h2,h3{
+            text-align: center;
+        }
+
+        .skills-section{
+            margin-top: 20px;
+        }
+
+        .skills-section ul{
+            line-height: 2;
+        }
+
+        .skill-tag{
+            display: inline-block;
+            background-color: gold;
+            color: black;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        @media(max-width:768px){
+
+            nav{
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .card{
+                width: 95%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portfolio</h1>
+    <p>_____________________(2026)</p>
+</header>
+
+<nav>
+    <a href="about me.html">ABOUT ME</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="skills.html">SKILLS</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>Skills & Expertise</h1>
+
+        <p style="text-align:center;">
+            A comprehensive overview of my technical competencies and professional abilities.
+        </p>
+
+        <div class="skills-section">
+
+            <h2>Programming Skills</h2>
+
+            <ul>
+                <li>C Programming</li>
+                <li>Python</li>
+            </ul>
+
+            <div>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">Python</span>
+            </div>
+
+        </div>
+
+        <div class="skills-section">
+
+            <h2>Web Development</h2>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+            </ul>
+
+            <div>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Bootstrap</span>
+            </div>
+
+        </div>
+
+        <div class="skills-section">
+
+            <h2>Data Analysis & Visualization</h2>
+
+            <ul>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Dashboard Creation</li>
+                <li>DAX</li>
+                <li>Data Modeling</li>
+            </ul>
+
+            <div>
+                <span class="skill-tag">Power BI</span>
+                <span class="skill-tag">Tableau</span>
+                <span class="skill-tag">DAX</span>
+                <span class="skill-tag">Data Modeling</span>
+            </div>
+
+        </div>
+
+        <div class="skills-section">
+
+            <h2>Soft Skills</h2>
+
+            <ul>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Team Collaboration</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+
+            <div>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Leadership</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
